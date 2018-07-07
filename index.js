@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
-    'body-leading-blank': [1, 'always'],
-    'footer-leading-blank': [1, 'always'],
+    'body-leading-blank': [2, 'always'],
+    'footer-leading-blank': [2, 'always'],
     'header-max-length': [2, 'always', 100],
     'scope-case': [2, 'always', 'lower-case'],
     'subject-case': [
@@ -19,6 +19,7 @@ module.exports = {
       [
         'Build',
         'CI',
+        'Config',
         'Docs',
         'Example',
         'Feature',
