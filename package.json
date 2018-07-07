@@ -1,0 +1,32 @@
+{
+  "name": "commitlint-config-armour",
+  "version": "1.0.0",
+  "description": "shareable config for commitlint",
+  "license": "MIT",
+  "author": "Chong Guo <armourcy@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armour/commitlint-config-armour.git"
+  },
+  "bugs": "https://github.com/armour/commitlint-config-armour/issues",
+  "homepage": "https://github.com/armour/commitlint-config-armour#readme",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+    }
+  },
+  "keywords": [
+    "commitlint",
+    "commitlint-config"
+  ],
+  "devDependencies": {
+    "husky": "1.0.0-rc.12"
+  },
+  "dependencies": {
+    "@commitlint/cli": "7.0.0"
+  }
+}
