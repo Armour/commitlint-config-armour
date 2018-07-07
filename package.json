@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config-armour",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "shareable config for commitlint",
   "license": "MIT",
   "author": "Chong Guo <armourcy@gmail.com>",
