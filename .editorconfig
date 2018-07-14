@@ -19,6 +19,16 @@ trim_trailing_whitespace = false
 indent_size = 2
 indent_style = space
 
+# Indentation override for css files
+[*.{css,styl,scss,less,sass}]
+indent_size = 2
+indent_style = space
+
+# Indentation override for html files
+[*.html]
+indent_size = 2
+indent_style = space
+
 # Indentation override for config files
 [*.{json,yml}]
 indent_size = 2
