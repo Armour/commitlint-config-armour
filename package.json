@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config-armour",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "shareable config for commitlint",
   "license": "MIT",
   "author": "Chong Guo <armourcy@gmail.com>",
@@ -24,6 +24,11 @@
     "commitlint-config"
   ],
   "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
     "husky": "1.0.0-rc.13"
   },
   "dependencies": {

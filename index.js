@@ -24,8 +24,8 @@ module.exports = {
         'Refactor',
         'Revert',
         'Style',
-        'Test'
-      ]
-    ]
-  }
+        'Test',
+      ],
+    ],
+  },
 };
