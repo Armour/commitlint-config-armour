@@ -5,7 +5,7 @@
 [![npm](https://img.shields.io/npm/v/commitlint-config-armour.svg)](https://www.npmjs.com/package/commitlint-config-armour)
 [![Template from jarvis](https://img.shields.io/badge/Hi-Jarvis-ff69b4.svg)](https://github.com/Armour/Jarvis)
 
-My shareable config for [commitlint](https://github.com/marionebl/commitlint), see [COMMIT_CONVENTION.md](.github/COMMIT_CONVENTION.md) for detailed explanation.
+My shareable config for [commitlint](https://github.com/conventional-changelog/commitlint), see [COMMIT_CONVENTION.md](.github/COMMIT_CONVENTION.md) for detailed explanation.
 
 ## Usage
 
@@ -45,7 +45,7 @@ echo "extends: ['armour']" > .commitlintrc.yml
 ...
 "husky": {
   "hooks": {
-    "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
   }
 },
 ...
